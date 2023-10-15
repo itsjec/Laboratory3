@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Oct 02, 2023 at 06:26 PM
+-- Generation Time: Oct 15, 2023 at 02:39 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -62,7 +62,9 @@ INSERT INTO `products` (`id`, `name`, `description`, `image`, `price`, `category
 (18, 'Apple', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'product-img-5.jpg', 9.01, 'Pome', 200),
 (19, 'Lemon', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'product-img-3.jpg', 7.01, 'Citrus', 150),
 (20, 'Kiwi', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'product-img-4.jpg', 9.99, 'Berries', 100),
-(21, 'Raspberry', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'product-img-6.jpg', 7.01, 'Berries', 150);
+(21, 'Raspberry', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'product-img-6.jpg', 7.01, 'Berries', 150),
+(22, 'Jessica', 'ay maganda', 'photo1695209882.jpeg', 1000.00, 'human', 1),
+(23, 'Jessica', 'ay maganda', 'photo1695209882.jpeg', 1000.00, 'human', 1);
 
 -- --------------------------------------------------------
 
@@ -86,7 +88,9 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `role`, `created_at`, `updated_at`) VALUES
 (1, 'jecaish', 'jecaish@gmail.com', '$2y$10$PvvrH8Sc.Iy5Y1O76Ltq8Oq13ilRkze/yJGfWHsgdOe7QR4DIvjuy', 'user', '2023-10-01 08:46:20', '2023-10-01 08:46:20'),
-(2, 'jec', 'jec@gmail.com', '$2y$10$rhvrd7QlovQd02Pk9.HqOuLUCqz48rnyvpjw3K1pBPjD7gL4BnEPm', 'admin', '2023-10-01 08:58:34', '2023-10-01 14:22:45');
+(2, 'jec', 'jec@gmail.com', 'jecjec', 'admin', '2023-10-01 08:58:34', '2023-10-15 14:38:42'),
+(3, 'milko', 'milko@gmail.com', '$2y$10$.Ch1cB1UApa39nw89HepTu1xghRsUA7VZNxAxYSExfns0YdTnX2aC', 'user', '2023-10-03 09:50:06', '2023-10-03 09:50:06'),
+(4, 'admin', 'admin@gmail.com', '$2y$10$Dgc/GfbsqOiKL6fWGKjNGuQ9cteBfqcElEmDJ/bFWhOkG4Fi3R0aK', 'user', '2023-10-15 14:37:41', '2023-10-15 14:37:41');
 
 --
 -- Indexes for dumped tables
@@ -126,13 +130,13 @@ ALTER TABLE `admins`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
