@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Oct 15, 2023 at 02:39 PM
+-- Generation Time: Oct 15, 2023 at 02:40 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -62,9 +62,7 @@ INSERT INTO `products` (`id`, `name`, `description`, `image`, `price`, `category
 (18, 'Apple', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'product-img-5.jpg', 9.01, 'Pome', 200),
 (19, 'Lemon', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'product-img-3.jpg', 7.01, 'Citrus', 150),
 (20, 'Kiwi', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'product-img-4.jpg', 9.99, 'Berries', 100),
-(21, 'Raspberry', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'product-img-6.jpg', 7.01, 'Berries', 150),
-(22, 'Jessica', 'ay maganda', 'photo1695209882.jpeg', 1000.00, 'human', 1),
-(23, 'Jessica', 'ay maganda', 'photo1695209882.jpeg', 1000.00, 'human', 1);
+(21, 'Raspberry', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'product-img-6.jpg', 7.01, 'Berries', 150);
 
 -- --------------------------------------------------------
 
